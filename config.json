@@ -1,0 +1,9 @@
+{
+  "__comment": "file cau hinh json",
+  "PORT": 3000,
+
+  "mongodb": {
+    "host": "localhost:27017",
+    "database": "login"
+  }
+}
