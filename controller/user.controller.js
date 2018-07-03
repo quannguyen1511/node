@@ -2,7 +2,7 @@ var User = require("./../models/user.model");
 var message = require("./../utils/message");
 var crypto = require("./../utils/crypto");
 
-module.exports = {
+module.exports = ()=>{
   createUser: createUser,
   updateUser_PASS: updateUser_PASS,
   loginUser: loginUser,
