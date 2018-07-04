@@ -19,7 +19,6 @@ function createUser(request) {
       } else {
         if (!userModel) {
           var salt = crypto.genSalt();
-
           var newUser = new User({
             email: request.email,
             name: request.name,
